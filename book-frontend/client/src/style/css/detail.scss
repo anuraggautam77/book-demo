@@ -1,0 +1,173 @@
+.detail-page {
+	.padding-color {
+		background-color: #fff;
+		padding: 7px;
+	}
+
+	hr {
+		width: 60%;
+		display: inline-block;
+		border-bottom: 2px solid #fff;
+		border-top: none;
+		margin-bottom: 30px;
+	}
+	.image-container {
+		img {
+			width: 100%;
+		}
+	}
+
+	h2 {
+		text-transform: uppercase;
+		font-family: roboto slab, serif;
+		margin-top: 0;
+		margin-bottom: 0;
+		letter-spacing: .12em;
+		font-size: 40px;
+		line-height: 1.13043;
+		color: #fff;
+	}
+
+	.movie-conatiner {
+		color: #fff;
+		.review-2 {
+			margin-bottom: 25px;
+		}
+		.text-primary {
+			color: rgb(216, 26, 36) !important;
+		}
+
+		* + p {
+			margin-top: 10px;
+		}
+	}
+
+	.icon-waring-2 {
+		color: rgb(249, 190, 48);
+	}
+	.text-gray {
+		color: rgb(183, 183, 183);
+	}
+
+	.hr-primary {
+		border-bottom-color: rgb(216, 26, 36);
+	}
+
+	.bg-gray-900 {
+		color: rgb(255, 255, 255);
+	}
+
+	.text-box-overlay {
+		padding-left: 10px;
+		.text-box-inners {
+			color: rgb(128, 128, 128);
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+		}
+
+		.grey-text {
+			color: rgb(128, 128, 128);
+		}
+	}
+
+	.movie-cover {
+		position: relative;
+		padding-top: 250px;
+	}
+
+	.moview-info {
+		overflow: hidden;
+		color: rgb(255, 255, 255);
+		padding: 40px 0;
+
+		h1 {
+			color: rgb(255, 255, 255);
+			margin: 0 0 15px 0;
+			font-weight: normal;
+		}
+	}
+
+	.count-rating {
+		position: relative;
+		width: 140px;
+		height: 140px;
+		line-height: 140px;
+		text-align: center;
+		span {
+			font-size: 40px;
+			line-height: 156px;
+		}
+	}
+
+	.count-rating:before {
+		content: '\e913';
+		font-family: 'moview' !important;
+		color: rgb(255, 192, 0);
+		position: absolute;
+		left: 50%;
+		margin-left: -70px;
+		font-size: 130px;
+		width: 140px;
+		height: 140px;
+		line-height: 140px;
+	}
+
+	.moview-info-sidebar {
+		.img-wrap {
+			margin-top: -250px;
+		}
+		img {
+			width: 100%;
+		}
+	}
+
+	.numberCircle {
+		border-radius: 58%;
+		width: 88px;
+		height: 88px;
+		padding: 27px 10px;
+		background: linear-gradient(to right, rgb(192, 36, 37), rgb(240, 203, 53));
+		border: 2px solid rgb(102, 102, 102);
+		color: rgb(255, 251, 251);
+		text-align: center;
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.text-label {
+		color: rgb(255, 251, 251);
+		font-size: 20px;
+	}
+
+	.movie-meta {
+		margin-top: 30px;
+		list-style: none;
+	}
+	.titledes {
+		text-align: center;
+		font-size: 14px;
+		margin: 0;
+		margin-top: 5px;
+		padding: 0;
+	}
+	.section-inset-2 {
+		margin-top: 25px;
+	}
+	.rating-container {
+		i {
+			font-size: 30px;
+		}
+
+		label{
+			margin-bottom: 0;
+		}
+		 
+
+	}
+
+	.box-part {
+		border: 1px solid #fff;
+		padding-top: 13px;
+	}
+}

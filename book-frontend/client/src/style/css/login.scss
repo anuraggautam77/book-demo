@@ -1,0 +1,40 @@
+.login-container {
+	background: rgb(255, 255, 255);
+	overflow: hidden;
+	position: relative;
+	.alert {
+		padding: 4px;
+		margin-bottom: 10px;
+		border: 1px solid rgba(0, 0, 0, 0);
+		border-radius: 4px;
+	}
+	.cont_back_info {
+		position: relative;
+		float: left;
+		overflow: hidden;
+		background-color: #fff;
+	}
+	.login100-form-title-1 {
+		font-size: 20px;
+		color: rgb(255, 255, 255);
+		text-transform: uppercase;
+		line-height: 1.2;
+	}
+	.login100-form-title {
+		width: 100%;
+		position: relative;
+		padding: 10px;
+	}
+	.inner {
+		margin: 4%;
+	}
+
+	.padding-zero {
+		margin: -2px -10px;
+		padding: 0px;
+	}
+
+	.icon {
+		cursor: pointer;
+	}
+}

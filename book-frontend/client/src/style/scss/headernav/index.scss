@@ -1,0 +1,18 @@
+$screen-xs-min: 0px;
+$screen-xs-max: 767px;
+
+$screen-sm-min: 768px;
+$screen-sm-max: 1023px;
+
+$screen-md-min: 1024px;
+$screen-md-max: 1152px;
+
+$screen-lg-min: 1153px;
+
+$screen-max-width : 1440px;
+
+
+@import "mobile";
+@media (min-width: $screen-md-min) {
+    @import "desktop";
+}

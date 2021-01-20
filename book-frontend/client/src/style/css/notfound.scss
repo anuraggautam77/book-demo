@@ -1,0 +1,56 @@
+.error-content {
+	h1 {
+		font-size: 90px;
+		letter-spacing: 3px;
+		font-weight: 700;
+		line-height: 110px;
+		text-transform: uppercase;
+		margin: 24px;
+	}
+
+	h2 {
+		color: rgb(255, 255, 255);
+		font-size: 48px;
+		font-weight: 700;
+		letter-spacing: 3px;
+		line-height: 60px;
+		text-transform: uppercase;
+	}
+
+	p {
+		color: rgb(255, 255, 255);
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 28px;
+	}
+
+	.four {
+		background: rgb(216, 26, 36);
+		color: rgb(255, 255, 255);
+	}
+	.zero {
+		background: rgb(255, 255, 255);
+		margin-left: 15px;
+		margin-right: 15px;
+		color: #000;
+	}
+
+	.back-home {
+		text-decoration: none;
+		font-size: 14px;
+		color: rgb(255, 255, 255);
+		background: rgb(216, 26, 36);
+		border: 1px solid rgb(216, 26, 36);
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		padding: 15px 40px;
+		font-weight: bolder;
+		display: inline-block;
+		margin-top: 42px;
+		&:hover {
+			background: rgb(255, 255, 255);
+			color: rgb(240, 90, 102);
+			border: 1px solid rgb(255, 255, 255);
+		}
+	}
+}

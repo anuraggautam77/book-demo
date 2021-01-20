@@ -1,0 +1,58 @@
+{
+    "user1": {
+        "name": {
+            "value": "user1",
+            "Setcookie": true
+        },
+        "Id": {
+            "value": "andy",
+            "Setcookie": false
+        },
+        "type": {
+            "value": "videos",
+            "Setcookie": true
+        }
+    },
+    "user2": {
+        "name": {
+            "value": "User2",
+            "Setcookie": true
+        },
+        "Id": {
+            "value": "anurag77",
+            "Setcookie": true
+        },
+        "type": {
+            "value": "fooditems",
+            "Setcookie": true
+        }
+    },
+    "user3": {
+        "name": {
+            "value": "User3",
+            "Setcookie": true
+        },
+        "Id": {
+            "value": "narhri1",
+            "Setcookie": true
+        },
+        "type": {
+            "value": "electronics",
+            "Setcookie": true
+        }
+    },
+    "user4": {
+        "name": {
+            "value": "User4",
+            "Setcookie": true
+        },
+        "Id": {
+            "value": "vish2",
+            "Setcookie": true
+        },
+        "type": {
+            "value": "books",
+            "Setcookie": true
+        }
+    }
+}
